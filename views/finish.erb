@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+ <meta charset="UTF-8">
+ <title>Finish to vote!</title>
+ <link rel="stylesheet" href="./css/reset.css">
+ <link rel="stylesheet" href="./css/finish.css">
+</head>
+<body>
+ 
+ <div class="per-bar">
+  <div class="takenoko-per">
+   <div class="kinoko-per" style="width:<%=@kinoko /  @all * 100%>%">
+    <div class="percentage">
+     <p id="kinoko">KINOKO<br><%= (@kinoko /  @all * 100).to_i %>%</p>
+     <p id="takenoko">TAKENOKO<br><%=(@takenoko / @all * 100).to_i %>%</p>
+    </div>
+   </div>
+  </div>
+ </div>
+
+<!--<h1>kinoko:<%= (@kinoko /  @all * 100).to_i %>%　　takenoko:<%= (@takenoko / @all * 100).to_i %>%</h1>-->
+<p>Thank you for your Voting!</p>
+
+<form action="/" method="get">
+ <input type="submit" value="" class="ok_btn">
+</form>
+
+</body>
+</html>

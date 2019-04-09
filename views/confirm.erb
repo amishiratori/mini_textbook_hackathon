@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+ <meta charset="UTF-8">
+ <title>Are You Sure?</title>
+ <link rel="stylesheet" href="./css/reset.css">
+ <link rel="stylesheet" href="./css/confirm.css">
+</head>
+<body>
+
+<h1>Are You Sure?</h1>
+  <p class="sub"><%= @name %> is Voting For Team <%= @snack %>!</p>
+  <img src="./images/<%= @snack.downcase %>.jpg">
+<form action="/new" method="post">
+ <input type="submit" value="" class="ok_btn">
+</form>
+
+</body>
+</html>

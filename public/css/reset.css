@@ -1,0 +1,12 @@
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, address, cite, del,
+em, img, small, strong, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, hr, article, aside, figure,
+footer, header, menu, nav, section, time, mark, audio, video, details, summary {
+	padding: 0;
+	margin: 0;
+	font-size: 100%;
+	font-weight: normal;
+	vertical-align: baseline;
+	background: transparent;
+	border: 0;
+}

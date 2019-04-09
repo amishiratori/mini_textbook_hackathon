@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>アンケートフォーム</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+
+<h1>Battle of KINOKO and TAKENOKO</h1>
+ 
+<form action="/confirm" method="post">
+ <p class="main">
+   <label for="name">NAME</label>
+   <input class="name-input" type="text" name="name" height="30px">
+ </p>
+ <p class="sub">
+   <label for="snack">KINOKO？TAKENOKO？</label><br>
+   <input type="radio" id="kinoko" name="snack" value="KINOKO">
+   <label for="kinoko" class="check-button kinoko"></label>
+   <input type="radio" id="takenoko" name="snack" value="TAKENOKO">
+   <label for="takenoko" class="check-button takenoko"></label>
+ </p>
+   <input type="submit" value="" class="ok_btn">
+ </p>
+</form>
+</body>
+</html>
